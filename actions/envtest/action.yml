@@ -79,5 +79,5 @@ runs:
 
         # Export the path to the KUBEBUILDER_ASSETS environment variable.
         echo "Exporting KUBEBUILDER_ASSETS"
-        ENVTEST_ASSETS_PATH=$(setup-envtest use --bin-dir "$ENVTEST_TOOL_DIR" -i "$K8S_VERSION" -p path)
+        ENVTEST_ASSETS_PATH=$(setup-envtest use --bin-dir "$ENVTEST_TOOL_DIR" "$K8S_VERSION" -p path)
         echo "KUBEBUILDER_ASSETS='$ENVTEST_ASSETS_PATH'" >> "$GITHUB_ENV"
