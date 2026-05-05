@@ -6,7 +6,7 @@ on:
     paths:
       - 'actions/**'
     branches:
-      - main
+      - test 
 
 permissions: read-all
 
