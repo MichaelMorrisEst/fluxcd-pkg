@@ -62,7 +62,7 @@ func (h Hash) String() string {
 }
 
 // Signature represents an entity which associates a person and a time
-// with a commit.
+// with a commit. ttttttttt
 type Signature struct {
 	Name  string
 	Email string
