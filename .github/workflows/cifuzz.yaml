@@ -3,7 +3,7 @@ name: fuzz
 on:
   pull_request:
     branches:
-      - test2
+      - test
 
 permissions: read-all
 
